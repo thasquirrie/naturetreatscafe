@@ -76,7 +76,7 @@ export default function UsernameResults() {
                       <p className='mt-1 text-sm text-gray-500'>
                         {product.color}
                       </p>
-                      <p className='mt-1 text-sm font-medium text-gray-900'>
+                      <p className='mt-1 text-lg font-medium text-gray-900'>
                         {product.price}
                       </p>
                     </div>

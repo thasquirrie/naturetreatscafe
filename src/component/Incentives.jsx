@@ -91,7 +91,7 @@ export default function Incentives() {
                   <img className='w-16 h-16' src={incentive.imageSrc} alt='' />
                 </div>
                 <div className='mt-4 sm:mt-0 sm:ml-6 lg:mt-6 lg:ml-0'>
-                  <h3 className='text-sm font-medium text-gray-900'>
+                  <h3 className='text-xl font-semibold text-gray-900'>
                     {incentive.name}
                   </h3>
                   <p className='mt-2 text-sm text-gray-500'>
