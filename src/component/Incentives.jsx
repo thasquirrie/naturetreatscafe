@@ -14,27 +14,48 @@
   }
   ```
 */
+
+<svg
+  class='w-6 h-6'
+  fill='none'
+  stroke='currentColor'
+  viewBox='0 0 24 24'
+  xmlns='http://www.w3.org/2000/svg'
+>
+  <path
+    stroke-linecap='round'
+    stroke-linejoin='round'
+    stroke-width='2'
+    d='M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z'
+  ></path>
+  <path
+    stroke-linecap='round'
+    stroke-linejoin='round'
+    stroke-width='2'
+    d='M9.879 16.121A3 3 0 1012.015 11L11 14H9c0 .768.293 1.536.879 2.121z'
+  ></path>
+</svg>;
+
 const incentives = [
   {
-    name: 'Free shipping',
+    name: 'Fast delivery',
     imageSrc:
       'https://tailwindui.com/img/ecommerce/icons/icon-shipping-simple.svg',
     description:
       "It's not actually free we just price it into the products. Someone's paying for it, and it's not us.",
   },
   {
-    name: '10-year warranty',
+    name: 'Quality products',
     imageSrc:
       'https://tailwindui.com/img/ecommerce/icons/icon-warranty-simple.svg',
     description:
-      "If it breaks in the first 10 years we'll replace it. After that you're on your own though.",
+      'We pride ourselves in making sure we are putting healthy products out to our esteemed customers.',
   },
   {
-    name: 'Exchanges',
+    name: 'Good deals',
     imageSrc:
       'https://tailwindui.com/img/ecommerce/icons/icon-exchange-simple.svg',
-    description:
-      "If you don't like it, trade it to one of your friends for something of theirs. Don't send it here though.",
+    description: 'There is value for money on every product you get from us.',
   },
 ];
 
@@ -49,11 +70,10 @@ export default function Incentives() {
                 We built our business on great customer service
               </h2>
               <p className='mt-4 text-gray-500'>
-                At the beginning at least, but then we realized we could make a
-                lot more money if we kinda stopped caring about that. Our new
-                strategy is to write a bunch of things that look really good in
-                the headlines, then clarify in the small print but hope people
-                don't actually read it.
+                From the beginning we realized we could make a lot more money if
+                we continue to care about our customers. Our new strategy is to
+                make sure we keep our customers healthy while enjoying the
+                freshness of our products.
               </p>
             </div>
             <div className='aspect-w-3 aspect-h-2 bg-gray-100 rounded-lg overflow-hidden'>
