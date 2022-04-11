@@ -105,12 +105,12 @@ const products = [
   },
   {
     id: 3,
-    name: 'Leather Long Wallet',
+    name: 'Hazelnut Chocolate Brownie',
     color: 'Natural',
-    price: '$75',
+    price: '$95',
     href: '#',
     imageSrc:
-      'https://tailwindui.com/img/ecommerce-images/home-page-04-trending-product-02.jpg',
+      'https://cdn.shopify.com/s/files/1/0299/9985/7795/articles/IMG_9024_1400x.jpg?v=1607366494',
     imageAlt: 'Hand stitched, orange leather long wallet.',
   },
   {
